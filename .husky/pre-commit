@@ -1,0 +1,9 @@
+echo "Running lint on admin and client..."
+
+echo "Linting admin directory..."
+cd admin && pnpm lint || exit 1
+
+echo "Linting client directory..."
+cd ../client && npm run lint || exit 1
+
+

@@ -1,0 +1,9 @@
+echo "Building admin and client before pushing..."
+
+echo "Building admin directory..."
+cd admin && pnpm build 
+
+echo "Building client directory..."
+cd ../client && npm run build
+
+echo "Build completed. Proceeding with push..."
