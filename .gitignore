@@ -1,0 +1,70 @@
+# === Node ===
+/node_modules/
+/.pnpm/
+.pnpm-debug.log
+npm-debug.log*
+
+# === Logs ===
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Runtime Data ===
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# === TypeScript ===
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+# === Build Directories ===
+/dist/
+/build/
+
+# === Expo (React Native Client) ===
+/.expo/
+/.expo-shared/
+/.web/
+/.android/
+/.ios/
+/expo-app-cache/
+
+# === Next.js (Admin Panel) ===
+/.next/
+/out/
+/.next/cache/
+
+# === System Files ===
+Thumbs.db
+
+# === IDEs and Editors ===
+/.vscode/
+/.idea/
+
+# === Lint & Formatting ===
+.eslintcache
+.prettiercache
+
+# === Environment Variables ===
+.env
+.env.local
+.env.*.local
+
+# === Coverage ===
+/coverage/
+
+# === Husky ===
+/.husky/_/
+
+# === Misc ===
+*.tgz
+*.swp
+*.swo
+
+# === Git Conflicts ===
+*.orig
